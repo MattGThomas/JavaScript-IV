@@ -104,7 +104,7 @@ class Hero extends Humanoid{
     language: 'Elvish',
   });
 
-  const shinji = new Hero({
+  const shinji1 = new Hero({
     createdAt: new Date(),
     dimension: {
       length: 5,
@@ -148,4 +148,4 @@ class Hero extends Humanoid{
   console.log(mage.takeDamage()); // Bruce took damage.
   console.log(swordsman.destroy()); // Sir Mustachio was removed from the game.
   console.log(titanSlayer.breatheDragonFire());
-  console.log(shinji.getInTheRobot());
+  console.log(shinji1.getInTheRobot());
